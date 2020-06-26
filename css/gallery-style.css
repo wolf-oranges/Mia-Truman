@@ -2,51 +2,44 @@ body{
   color:red;
   background-color: lightblue;
 }
-/* rhis iswhere i stopped, consult the website that i saved that gives better instructions on this */
-    @media screen and (min-width: 768px) {
-        .modal-dialog {
-          width: 700px; /* New width for default modal */
-        }
-        .modal-sm {
-          width: 350px; /* New width for small modal */
-        }
-    }
-    @media screen and (min-width: 992px) {
-        .modal-lg {
-          width: 950px; /* New width for large modal */
-        }
-    }
 
-div.modal-body{
+/* .modal-dialog {
+  width: 900px;
+  height:900px !important;
+  background-color: green;
+
+  /* height:900px !important; */
+}
+
+/* div.modal-body{
   background-color: red;
   margin:0 auto;
   width: auto;
   margin-top: 20px;
   margin-bottom: 100px;
-  /* padding-bottom:70px; */
+
 }
 div.modal-content{
   background-color: purple;
-  width:90%
+
   margin:0 auto;
   width: auto;
   margin-top: 20px;
   margin-bottom: 100px;
-  /* padding-bottom:70px; */
+
 }
 
 div.carousel-inner img {
-  /* background-color: purple; */
+
   margin:auto;
   width:auto;
   height: 600px;
   max-height: 600px;
-  /* padding: 30px; */
 }
 .carousel-inner{
   padding-bottom:70px;
-  /* background-color: orange; */
-}
+
+} */ */
 
 .navbar{
   width: 100%;
@@ -59,10 +52,10 @@ div.carousel-inner img {
 }
 
 /* this is for the gallery stuff specifically */
-#gallery img {
+/* #gallery img {
   height: 250vw;
 
-  /* height: 75vw; */
+
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -76,9 +69,9 @@ div.carousel-inner img {
     height: 18vw;
   }
 }
-/* .carousel-item */
+
 .item img {
-  /* height: 60vw; */
+
   height: 250vw;
   -o-object-fit: cover;
      object-fit: cover;
@@ -351,4 +344,4 @@ input:checked + .slider:before {
   .switch-text {
     margin: 0 1em 0 0;
   }
-}
+} */

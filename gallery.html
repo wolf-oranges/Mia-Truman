@@ -13,12 +13,19 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
     <link rel="stylesheet" href="css/gallery-style.css">
     <link rel="java" href="myjava.js">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
     <title>Mia Truman</title>
   </head>
   <body>
 
+<a data-fancybox="gallery" href="big_1.jpg"><img src="img/paintings/childhood/a.jpg"></a>
+<a data-fancybox="gallery" href="big_2.jpg"><img src="img/paintings/childhood/b.jpg"></a>
 
 
+<!--
     <div class="row" id="gallery" data-toggle="modal" data-target="#exampleModal">
   <div class="col-12 col-sm-6 col-lg-3">
     <img class="w-100" src="img/paintings/childhood/a.jpg" alt="First slide" data-target="#carouselExample" data-slide-to="0">
@@ -32,13 +39,13 @@
   <div class="col-12 col-sm-6 col-lg-3">
     <img class="w-100" src="img/paintings/childhood/d.jpg" alt="Fourth slide" data-target="#carouselExample" data-slide-to="3">
   </div>
-</div>
+</div> -->
 
 <!-- Modal -->
 <!--
 This part is straight out of Bootstrap docs. Just a carousel inside a modal.
 -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
+<!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -47,7 +54,7 @@ This part is straight out of Bootstrap docs. Just a carousel inside a modal.
         </button>
       </div>
       <div class="modal-body">
-        <!-- maybe have to get rid of the data ride carousel thing... -->
+
         <div id="carouselExample" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExample" data-slide-to="0" class="active"></li>
@@ -57,7 +64,7 @@ This part is straight out of Bootstrap docs. Just a carousel inside a modal.
           </ol>
           <div class="carousel-inner">
             <div class="item active">
-              <!-- d-block w-100  -->
+
               <img class="img-fluid d-block mx-auto" src="img/paintings/childhood/a.jpg" alt="First slide">
             </div>
             <div class="item">
@@ -85,5 +92,5 @@ This part is straight out of Bootstrap docs. Just a carousel inside a modal.
       </div>
     </div>
   </div>
-</div>
+</div> -->
   </body>
