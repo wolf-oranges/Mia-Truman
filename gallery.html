@@ -8,21 +8,99 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+    <!-- fancybox -->
+    <link rel="stylesheet" type="text/css" href="jquery.fancybox.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+	  <script src="jquery.fancybox.min.js"></script>
+    <!-- my own css -->
     <link rel="stylesheet" href="css/gallery-style.css">
-    <link rel="java" href="myjava.js">
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <!-- bootstrap ends-->
+    <!-- probably wont need this shit below -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="jquery.fancybox.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	  <script src="jquery.fancybox.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css"> -->
+
+
 
     <title>Mia Truman</title>
   </head>
   <body>
 
-<a data-fancybox="gallery" href="big_1.jpg"><img src="img/paintings/childhood/a.jpg"></a>
-<a data-fancybox="gallery" href="big_2.jpg"><img src="img/paintings/childhood/b.jpg"></a>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md navbar-custom fixed-top">
+        <a class="navbar-brand" href="index.html">Mia Truman</a>
+        <!-- important to rememember the hash here! -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Paintings</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="drawings.html">Drawings</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+<!-- <p class=imglist style="max-width: 1000px;"> -->
+<!-- test stuff -->
+<div class="friends-row">
+  <div class="friends-col">
+    <a href="img/paintings/childhood/j.jpg" data-fancybox="gallery" data-caption="caption2"><img src="img/paintings/childhood/j.jpg"></a>
+  </div>
+  <div class="friends-col">
+    <a href="img/paintings/childhood/m.jpg" data-fancybox="gallery" data-caption="caption2"><img src="img/paintings/childhood/m.jpg"></a>
+  </div>
+  <div class="friends-col">
+    <a href="img/paintings/childhood/k.jpg" data-fancybox="gallery" data-caption="caption2"><img src="img/paintings/childhood/k.jpg"></a>
+  </div>
+  <div class="friends-col">
+    <a href="img/paintings/childhood/i.jpg" data-fancybox="gallery" data-caption="caption2"><img src="img/paintings/childhood/i.jpg"></a>
+  </div>
+  <div class="friends-col">
+    <a href="img/paintings/childhood/m.jpg" data-fancybox="gallery" data-caption="caption2"><img src="img/paintings/childhood/m.jpg"></a>
+  </div>
+</div>
+
+<div class="row">
+  <div class="column">
+    <a href="img/paintings/childhood/a.jpg" data-fancybox="gallery" data-caption="caption1"><img src="img/paintings/childhood/a.jpg"></a>
+    <a href="img/paintings/childhood/c.jpg" data-fancybox="gallery" data-caption="caption2"><img src="img/paintings/childhood/c.jpg"></a>
+    <a href="img/paintings/childhood/d.jpg" data-fancybox="gallery" data-caption="caption2"><img src="img/paintings/childhood/d.jpg"></a>
+    <a href="img/paintings/childhood/e.jpg" data-fancybox="gallery" data-caption="caption2"><img src="img/paintings/childhood/e.jpg"></a>
+    <a href="img/paintings/childhood/f.jpg" data-fancybox="gallery" data-caption="caption2"><img src="img/paintings/childhood/f.jpg"></a>
+    <a href="img/paintings/childhood/g.jpg" data-fancybox="gallery" data-caption="caption2"><img src="img/paintings/childhood/g.jpg"></a>
+    <!-- <a href="img/paintings/childhood/h.jpg" data-fancybox="gallery" data-caption="caption2"><img src="img/paintings/childhood/h.jpg"></a> -->
+  </div>
+  <div class="column">
+    <a href="img/paintings/childhood/b.jpg" data-fancybox="gallery" data-caption="caption2"><img src="img/paintings/childhood/b.jpg"></a>
+    <a href="img/paintings/o.jpg" data-fancybox="gallery" data-caption="caption2"><img src="img/paintings/o.jpg"></a>
+    <a href="img/paintings/p.jpg" data-fancybox="gallery" data-caption="caption2"><img src="img/paintings/p.jpg"></a>
+    <a href="img/paintings/q.jpg" data-fancybox="gallery" data-caption="caption2"><img src="img/paintings/q.jpg"></a>
+    <a href="img/paintings/r.jpg" data-fancybox="gallery" data-caption="caption2"><img src="img/paintings/r.jpg"></a>
+    <a href="img/paintings/s.jpg" data-fancybox="gallery" data-caption="caption2"><img src="img/paintings/s.jpg"></a>
+  </div>
+</div>
+
+
+
 
 
 <!--
